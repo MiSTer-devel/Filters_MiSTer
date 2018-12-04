@@ -1,5 +1,6 @@
 ### First Release:  If you have any previous Filters made by ghogan42/soltan_g42 then you should clear out your Filters folder before using these releases.  Otherwise you will have many duplicate filters.  The renaming was necessary for accuracy and consistency in the naming scheme. 
 
+### For clean sharp output -- Use Gaussian_Sharp_04 or Gaussian_Sharp_05 (formally poorly named as sharp_bilinear and even_sharper_bilinear)
 
 ### Introduction
 
