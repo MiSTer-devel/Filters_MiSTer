@@ -1,3 +1,6 @@
+### First Release:  If you have any previous Filters made by ghogan42/soltan_g42 then you should clear out your Filters folder before using these releases.  Otherwise you will have many duplicate filters.  The renaming was necessary for accuracy and consistency in the naming scheme. 
+
+
 ### Introduction
 
 In November 2018, a feature was added to MiSTer to allow the the video scaler to load filter coefficients for arbitrary interpolation filters.  This allows MiSTer to scale it's output over HDMI with common image scaling algorithms such as Bicubic as well as other scaling algorithms better suited for enlarging pixel graphics.  Additionally, some special effects such as scanlines and lcd effects can implemented through filter coeffcients.
@@ -40,15 +43,15 @@ Many filters exist already.  Here are samples of just a few:
 
 Even Sharper Bilinear: 
 
-![Sharper Bilinear Filter](http://i63.tinypic.com/a29p8k.jpg)
+![Gaussian_Sharp_05](http://i63.tinypic.com/a29p8k.jpg)
 
 Sharp 30% Scanlines:
 
-![Sharp Bilinear with 30% Scanlines](http://i63.tinypic.com/2s78847.jpg)
+![Normal 30% Scanlines](http://i63.tinypic.com/2s78847.jpg)
 
 LCD Effect:
 
-![LCD Effect](http://i67.tinypic.com/10px9ph.jpg)
+![LCD Effect (No Blur)](http://i67.tinypic.com/10px9ph.jpg)
 
 
 ### Technial Information
