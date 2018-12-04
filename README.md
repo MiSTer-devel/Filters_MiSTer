@@ -41,15 +41,15 @@ A: This is the official place to get these filters as of Dec 03, 2018
 
 Many filters exist already.  Here are samples of just a few:
 
-Even Sharper Bilinear: 
+Gaussian_Sharp_05: 
 
 ![Gaussian_Sharp_05](http://i63.tinypic.com/a29p8k.jpg)
 
-Sharp 30% Scanlines:
+Normal 30% Scanlines:
 
 ![Normal 30% Scanlines](http://i63.tinypic.com/2s78847.jpg)
 
-LCD Effect:
+LCD Effect (No Blur):
 
 ![LCD Effect (No Blur)](http://i67.tinypic.com/10px9ph.jpg)
 
