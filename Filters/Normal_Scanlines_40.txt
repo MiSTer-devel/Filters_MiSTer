@@ -2,7 +2,7 @@
 # sum of line must not exceed the range!
 
 # Sharp Bilinear on x-axis and y-axis
-# 30% Scanlines on y-axis
+# 40% Scanlines on y-axis
 
 # horizontal coefficients
    0, 128,   0,   0
