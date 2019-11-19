@@ -2,7 +2,7 @@
 # sum of line must not exceed the range!
 
 # monochrome LCD Effect based on Woozle's Game Boy Grid 
-# Original filename is LCD_Effect_Br_04.txt
+# Original filename is LCD_Effect_09.txt
 
 # horizontal coefficients
    0, 140,   0,   0
