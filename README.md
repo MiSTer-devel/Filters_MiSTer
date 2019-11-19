@@ -1,17 +1,18 @@
 
 ### Introduction
 
-The MiSTer Filters and Gamma Github repository is here: https://github.com/MiSTer-devel/Filters_MiSTer.
+**If you use MiSTer you should be using a custom filter for upscaling if you want high quality about without uneven scaling and shimmering during scrolling.**
+
+The MiSTer Filters and Gamma Github repository is here: ([MiSTer Filters and Gamma Github)[https://github.com/MiSTer-devel/Filters_MiSTer])
 
 As of November 2018, MiSTer can use custom filter coefficients to define the interpolation used for scaling over the HDMI output (and VGA too with a mister.ini option). This allows MiSTer to scale images using well-known image scaling algorithms such as bicubic or lanczos scaling as well as other scaling methods better suited to scaling pixel graphics.  Special effects such as scanlines and lcd effects are also possible.
 
-If you use MiSTer you should be using a custom filter for upscaling if you want high quality about without uneven scaling and shimmering during scrolling.
+This github repository houses all of the Interpolation Filters that have been created so far for MiSTer: [MiSTer Filters/Gamma Github Repository](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases)
 
-This github repository houses all of the Interpolation Filters that have been created so far for MiSTer.
 
 As of November 2019 this github also contains Gamma Lookup Tables to allow MiSTer apply a gamma curves to cores with an updated framework.  James-F has created a number of curves that are included in the Gamma folder of this repository.
 
-### How to use filter coeffcients and gamma tables
+### How to use filter coefficients and gamma tables
 
 To use any of the pre-made filter coefficients (or your own) you need:
 
@@ -21,7 +22,9 @@ To use any of the pre-made filter coefficients (or your own) you need:
 
 * Filters. Filters are text files containing the coefficients for a specific interpolation method.  All filters must go in the Filters directory on your MiSTer SD card.  The most common way to obtain a set of filters is to run the MiSTer updater script (if your MiSTer has network access).  You can also download a release ZIP file from this repository or download a copy of this repository and copy the Filters folder over to your SD card by hand.
 
-* Gamma. Gamma tables are text files containg the R,G,B entries of a gamma lookup table.  All gamma LUTs must go in the Gamma directory on your MiSTer SD card.  You can obtain gamma tables in the same way as the filters: either using the MiSTer updater script or by copying the Gamma folder from this repository over to your SD card by hand.
+Filter Releases are here: [MiSTer Filters/Gamma Release Folder](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases)
+
+* Gamma. Gamma tables are text files containing the R,G,B entries of a gamma lookup table.  All gamma LUTs must go in the Gamma directory on your MiSTer SD card.  You can obtain gamma tables in the same way as the filters: either using the MiSTer updater script or by copying the Gamma folder from this repository over to your SD card by hand.
 
 Once you have updated MiSTer and Cores and your filter/gamma coefficients in the right place you simply
 
@@ -52,7 +55,7 @@ A: Here. Or the update script which will get them from here. This is the officia
 
 Q: Why are some filters labeled "SNES"?
 
-A: MiSTer's SNES core outputs a 512 pixel wide image even when the SNES is in it's 256 pixel wide mode. This makes the horizonatal interpolation too sharp.  The SNES specific filters take this into account.
+A: MiSTer's SNES core outputs a 512 pixel wide image even when the SNES is in it's 256 pixel wide mode. This makes the horizontal interpolation too sharp.  The SNES specific filters take this into account.
 
 Q: What do some filters have "NN" appended to the name?
 
@@ -64,7 +67,7 @@ A: Check the subfolders for many filters.  Only a few are in the Filters root fo
 
 ### What do some filters look like?
 
-The Filters folder contains a set of recommended filters for general use.  There are samples in the Samples folder of this repository.
+The Filters folder contains a set of recommended filters for general use.  There are samples in the Samples folder of this repository. View these images at full size to make a proper evaluation.
 
 Interpolation (Sharp): 
 
