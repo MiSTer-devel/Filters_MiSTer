@@ -98,7 +98,7 @@ Vertical Scanlines (Soft):
 
 ### Technial Information
 
-The VIP scaler implements a generic 4 tap, 16 phase polyphase filter.  Details are on page 189 of the VIP scaler docs here: [Intel VIP Scaler Doc](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_vip.pdf)
+The commercial VIP scaler implements a generic 4 tap, 16 phase polyphase filter.  The open source ASCAL scaler that MiSTer uses now implements the same type of filter for scaling. Details are on page 189 of the VIP scaler docs here: [Intel VIP Scaler Doc](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_vip.pdf)
 
 The Zipcores Application Notes pdf explains the workings of the filter much better than the ALtera/Intel docs: [Zipcores Application Notes](http://www.zipcores.com/datasheets/app_note_zc003.pdf)
 
@@ -109,7 +109,7 @@ Most of the currently available filter coefficients were generated with the Matl
 * There are separate coefficients for horizontal and vertical scaling.
 * Each row of the Filter Text File list the coefficients for taps T0, T1, T2, T3 for a paricular phase.
 * The first row is phase 0 and corresponds to the center of tap T1.
-* The ninth row is phase 8 and corresponds to the halfway point between T1 and T1 (so it's the pixel edge between T1 and T2).
+* The ninth row is phase 8 and corresponds to the halfway point between T1 and T2 (so it's the pixel edge between T1 and T2).
 * Then last row is phase 15 and corresponds to 15/16th of the way from T1 to T2 (so one phase before the center T2).
 
 #### Sample Coefficient Set. Note the following:
