@@ -69,6 +69,8 @@ A: Check the subfolders for many filters.  Only a few are in the Filters root fo
 
 The Filters folder contains a set of recommended filters for general use.  There are samples in the Samples folder of this repository. View these images at full size to make a proper evaluation.
 
+**All screenshots below are from the Polyphase Previewer App that copies MiSTer's algorithm for scaling. You can try it out with emulator screenshots to see what ouput MiSTer will produce:** [Polyphase Previewer Github](https://github.com/rikard-softgear/PolyphasePreviewer) and [Polyphase Previewer Releases](https://github.com/rikard-softgear/PolyphasePreviewer/releases)
+
 Interpolation (Sharp): 
 
 ![Interpolation (Sharp)](https://raw.githubusercontent.com/ghogan42/Filters_MiSTer/master/Samples/NEOGEO_Interpolation_Sharp.png)
