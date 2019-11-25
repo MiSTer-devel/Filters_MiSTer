@@ -89,7 +89,7 @@ LCD Effect (Monochrome):
 
 LCD Effect (Color):
 
-![LCD Effect (Color)](https://raw.githubusercontent.com/ghogan42/Filters_MiSTer/master/Samples/Gameboy_LCD_Color.png)
+![LCD Effect (Color)](https://raw.githubusercontent.com/ghogan42/Filters_MiSTer/master/Samples/GBA_LCD_Color.png)
 
 Vertical Scanlines (Soft):
 
