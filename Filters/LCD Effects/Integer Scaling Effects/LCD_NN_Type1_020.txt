@@ -1,4 +1,4 @@
-# Filter Coeffients for Hybrid Scanline Test
+# Filter Coefficients for LCD Effects
 
 # The original filename is:
 # LCD_NN_Type1_020.txt
