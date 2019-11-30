@@ -1,0 +1,42 @@
+# range -128..128
+# sum of line must not exceed the range!
+
+# Sharp Bilinear
+# Equivalent to doubling size with nearest neighbor and
+# then bilinear to the final size. 
+
+# horizontal coefficients
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 112,  16,   0
+   0,  96,  32,   0
+   0,  80,  48,   0
+   0,  64,  64,   0
+   0,  48,  80,   0
+   0,  32,  96,   0
+   0,  16, 112,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+
+# vertical coefficients
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 128,   0,   0
+   0, 112,  16,   0
+   0,  96,  32,   0
+   0,  80,  48,   0
+   0,  64,  64,   0
+   0,  48,  80,   0
+   0,  32,  96,   0
+   0,  16, 112,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
+   0,   0, 128,   0
