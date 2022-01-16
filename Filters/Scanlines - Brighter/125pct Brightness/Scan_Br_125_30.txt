@@ -1,5 +1,5 @@
 # 64 Phase Filters
-# Single Set of Coeffcieints
+# Single Set of Coefficients
 
 # The original filename is:
 # Scan_Br_125_30.txt

@@ -1,5 +1,5 @@
 # 64 Phase Filters
-# Single Set of Coeffcieints
+# Single Set of Coefficients
 
 # The original filename is:
 # LCD_NN_Type2_020_V.txt
