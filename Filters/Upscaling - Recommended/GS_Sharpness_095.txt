@@ -1,5 +1,5 @@
 # 64 Phase Filters
-# Single Set of Coeffcieints
+# Single Set of Coefficients
 
 # Kernel ius: 
 #  y = 1/sqrt(2*pi*s)*exp(-x^2/(2*s^2)) 
